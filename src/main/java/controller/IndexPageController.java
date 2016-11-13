@@ -13,7 +13,19 @@ public class IndexPageController {
 	      return "index";
 	}
 	
+	@RequestMapping(value = "/provideCarpool")
+	public String provide() {
 	
+		return "offerCarpool";
 
+	}
+	
+	@RequestMapping(value = "/getCarpool")
+	public String find() {
+	
+		return "findCarpool";
+
+	}
+	
 
 }

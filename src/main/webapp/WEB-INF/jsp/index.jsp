@@ -11,6 +11,15 @@
 <body>
 	Carpool Finding!!!
 	
+	<table>
+		<tr>
+			<!-- value 的值可以改  -->
+			<td><input type="button"  onclick="location.href='/provideCarpool'" value="Provide a Carpool" ></td>
+			<td><input type="button"  onclick="location.href='/getCarpool'" value="Find a Carpool" ></td>
+		</tr>
+					
+	</table>
+	
 
 
 
